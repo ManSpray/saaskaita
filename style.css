@@ -1,0 +1,1 @@
+*{box-sizing:border-box}header{display:flex;flex-direction:column;justify-self:center}main .seller-buyer-info{display:flex;justify-content:space-around}main table,main th,main td{border:1px solid}main table{justify-self:center;width:65%;border-collapse:collapse}main section .summary{align-items:center}

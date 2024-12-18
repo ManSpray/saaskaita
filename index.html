@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sąskaita faktūra ir Briedžiai</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>PVM Sąskaita-faktūra</h1>
+        <div id="number">Serijos numeris: </div>
+        <div id="date">Data: </div>
+        <div id="due_date">Apmokėti iki: </div>
+    </header>
+
+    <main>
+        <div class="seller-buyer-info">
+            <div id="seller">
+                <h2>PARDAVĖJAS:</h2>
+                <div id="name">Pavadinimas: </div>
+                <div id="address">Adresas: </div>
+                <div id="code">Įm. kodas: </div>
+                <div id="vat">PVM mok. kodas: </div>
+                <div id="phone">Tel.: </div>
+                <div id="email">El. paštas: </div>
+            </div>
+            <div id="buyer"> 
+                <h2>PIRKĖJAS:</h2>
+                <div id="name">Pavadinimas: </div>
+                <div id="address">Adresas: </div>
+                <div id="code">Įm. kodas: </div>
+                <div id="vat">PVM mok. kodas: </div>
+                <div id="phone">Tel.: </div>
+                <div id="email">El. paštas: </div>
+            </div>
+        </div>
+
+        <table class="items">
+            <tr>
+                <th id="description">Prekės aprašymas</th>
+                <th id="quantity">Kiekis</th>
+                <th id="price">Kaina</th>
+                <th id="discount">Nuolaida</th>
+                <th id="sum">Suma</th>
+            </tr>
+        </table>
+
+        <section class="summary">
+            <div id="all-product-price">Tarpinė visų prekių suma: </div>
+            <br>
+            <div id="shippingPrice">Pristatymo išlaidos: </div>
+            <div id="price-with-delivery">Tarpinė suma su pristatymu: </div>
+            <div id="PVM-amount">PVM(21%): </div>
+            <div id="total-price">Galutinė kaina: </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Ačiū, kad pirkote! Linksmų švenčių!</h2>
+    </footer>
+</body>
+
+</html>
